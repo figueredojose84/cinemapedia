@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 class HomeScreen extends StatelessWidget {
   static const name = 'home-screen';
@@ -10,8 +11,8 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Cinemapedia'),
       ),
-      body: const Center(
-        child: Text('Hello World!'),
+      body: Center(
+        child: Text(dotenv.env['THE_MOVIEDB_KEY'] ?? 'No key found'),
       ),
     );
   }
