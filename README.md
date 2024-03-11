@@ -1,0 +1,7 @@
+# cinemapedia
+
+A new Flutter project.
+
+1. COPIAR EL .ENV.TEMPLATE Y RENOMBRARLO A .ENV
+
+2.CAMBIAR LAS VARIABLES DE ENTORNO (The movieDB)
